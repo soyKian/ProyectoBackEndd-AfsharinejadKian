@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "Louis Vuitton Bag",
+    "description": "LV N41358 Neverfull MM",
+    "price": 2030,
+    "thumbnail": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm-damier-ebene-handbags--N41358_PM2_Front%20view.jpg",
+    "stock": 0,
+    "category": "TRUCHELLI",
+    "code": "A267X",
+    "status": true
+  },
+  {
+    "id": 2,
+    "title": "Luis FAKE",
+    "description": "TOTALMENTE ASQUEROSA",
+    "price": "20",
+    "thumbnail": "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm-damier-ebene-handbags--N41358_PM2_Front%20view.jpg",
+    "code": "AS99Z",
+    "category": "TRUCHELLI",
+    "stock": "12",
+    "status": true
+  }
+]
