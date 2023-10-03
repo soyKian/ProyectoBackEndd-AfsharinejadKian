@@ -2,7 +2,7 @@
 
 - ### Para clonar el repositorio realizar el siguiente comando:
 ```
-git clone https://github.com/YasaminAfshar/ProyectoFinalBackend-AfsharinejadYasmin.git
+git clone https://github.com/soyKian/ProyectoBackEndd-AfsharinejadKian.git
 ```
 
 - ### Para instalar todas las dependencias que integran el proyecto se debe escribir en la terminal el siguiente comando:
