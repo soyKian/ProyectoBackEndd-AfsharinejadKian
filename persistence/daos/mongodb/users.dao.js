@@ -83,11 +83,19 @@ export default class UsersDao {
       const email = user.email;
       const password = user.password;
       const findUser = await UserModel.findOne({ email: email });
-
+      console.log(findUser)
       if (findUser) {
         const passwordValidate = isValidPassword(password, findUser);
+        
+        console.log(passwordValidate)
         if (!passwordValidate) return false;
-        else return findUser;
+        else {
+          await UserModel.findOneAndUpdate(
+            { email: email },
+            { $set: { lastConnection: new Date().toLocaleString() } }
+          );
+          return findUser;
+        } 
       } else {
         return false;
       }
