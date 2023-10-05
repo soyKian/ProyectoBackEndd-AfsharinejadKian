@@ -24,7 +24,7 @@ const signup = async (req, email, password, done) => {
       }
     }
   } catch (error) {
-    console.log(error);
+    logger.error(error.message);
   }
 };
 
