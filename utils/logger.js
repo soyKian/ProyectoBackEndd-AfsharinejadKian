@@ -13,7 +13,7 @@ const logConfigDev = {
         format: "MM-DD-YYYY HH:mm:ss",
         }),
         colorize(),
-        printf((info) => `${info.level} | ${[info.timestamp]} | ${info.message} | "Desarrollo (DEV)"`)
+        printf((info) => `${info.level} | ${[info.timestamp]} | ${info.message} | "Desarrollo (--DEV)"`)
     ),
     transports: [
         new transports.Console({ level: "debug" }),
@@ -27,7 +27,7 @@ const logConfigProd = {
       format: "MM-DD-YYYY HH:mm:ss",
     }),
     colorize(),
-    printf((info) => `${info.level} | ${[info.timestamp]} | ${info.message} | "Producción (PROD)"`)
+    printf((info) => `${info.level} | ${[info.timestamp]} | ${info.message} | "Producción (--PROD)"`)
   ),
   transports: [
     new transports.Console({ level: "info" }),
